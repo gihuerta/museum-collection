@@ -1,0 +1,21 @@
+body {
+  background-color: #f7f6f3;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.item-card {
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.item-card:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.08);
+}
+
+.tag-pill {
+  font-size: 0.75rem;
+  margin-right: 0.25rem;
+}
